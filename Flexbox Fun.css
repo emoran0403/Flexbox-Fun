@@ -1,1 +1,16 @@
 /* CSS file for Flexbox Fun */
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxes{
+    display: flex;
+}
+
+.boxes div {
+    border: 1px solid black;
+    padding: 1em;
+}
