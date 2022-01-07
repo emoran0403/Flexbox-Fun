@@ -7,12 +7,6 @@ h1 {
     text-align: center;
 }
 
-.a{
-    display: flex;
-    /*flex-flow: row wrap;*/
-    flex-direction: row;
-}
-
 .flexitem {
     background: dodgerblue;
     padding: 0.5em;
@@ -26,20 +20,65 @@ h1 {
     text-align: center;
 }
 
-.b{
+.box {
+
+}
+.a {
     display: flex;
-    /*flex-flow: row wrap;*/
+    flex-direction: row;
+}
+
+.b {
+    display: flex;
     flex-direction: row-reverse;
 }
 
-.c{
+.c {
     display: flex;
-    /*flex-flow: row wrap;*/
     flex-direction: column;
 }
 
-.d{
+.d {
     display: flex;
-    /*flex-flow: row wrap;*/
     flex-direction: column-reverse;
+}
+
+.e {
+    display: flex;
+    width: 45em;
+    flex-wrap: wrap;
+}
+
+.f {
+    display: flex;
+    width: 45em;
+    flex-wrap: wrap-reverse;
+}
+
+.g {
+    display: flex;
+    flex-direction: column;
+    height: 45em;
+    flex-wrap: wrap;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    height: 45em;
+    flex-wrap: wrap-reverse;
+}
+
+.i {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 45em;
+    flex-wrap: wrap;
+}
+
+.j {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 45em;
+    flex-wrap: wrap-reverse;
 }
