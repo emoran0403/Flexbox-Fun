@@ -4,13 +4,42 @@
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
-.boxes{
+.a{
     display: flex;
+    /*flex-flow: row wrap;*/
+    flex-direction: row;
 }
 
-.boxes div {
-    border: 1px solid black;
-    padding: 1em;
+.flexitem {
+    background: dodgerblue;
+    padding: 0.5em;
+    width: 5em;
+    height: 5em;
+    margin: 0.5em;
+    line-height: 5em;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
+
+.b{
+    display: flex;
+    /*flex-flow: row wrap;*/
+    flex-direction: row-reverse;
+}
+
+.c{
+    display: flex;
+    /*flex-flow: row wrap;*/
+    flex-direction: column;
+}
+
+.d{
+    display: flex;
+    /*flex-flow: row wrap;*/
+    flex-direction: column-reverse;
 }
