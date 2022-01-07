@@ -9,14 +9,14 @@ h1 {
 
 .flexitem {
     background: dodgerblue;
-    padding: 0.5em;
+    padding: .5em;
     width: 1em;
     height: 2em;
     margin: 0.5em;
     line-height: 1em;
     color: white;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 1.25em;
     text-align: center;
 }
 
@@ -119,3 +119,21 @@ h1 {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.q {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10em;
+}
+.flex-start { align-self: flex-start; }
+.flex-end { align-self: flex-end; }
+.center { align-self: center; }
+.baseline { align-self: baseline; }
+.stretch { align-self: stretch; }
+
+.div1 { order: 2; }
+.div2 { order: 10; }
+.div3 { order: 0; }
+.div4 { order: -2; }
+.div5 { order: -1; }
