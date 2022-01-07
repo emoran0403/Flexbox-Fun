@@ -10,17 +10,18 @@ h1 {
 .flexitem {
     background: dodgerblue;
     padding: 0.5em;
-    width: 5em;
-    height: 5em;
+    width: 1em;
+    height: 2em;
     margin: 0.5em;
-    line-height: 5em;
+    line-height: 1em;
     color: white;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
 }
 
 .box {
+    border: 1px solid red;
 
 }
 .a {
@@ -45,40 +46,76 @@ h1 {
 
 .e {
     display: flex;
-    width: 45em;
+    width: 10em;
     flex-wrap: wrap;
 }
 
 .f {
     display: flex;
-    width: 45em;
+    width: 10em;
     flex-wrap: wrap-reverse;
 }
 
 .g {
     display: flex;
     flex-direction: column;
-    height: 45em;
+    height: 10em;
     flex-wrap: wrap;
 }
 
 .h {
     display: flex;
     flex-direction: column;
-    height: 45em;
+    height: 10em;
     flex-wrap: wrap-reverse;
 }
 
 .i {
     display: flex;
     flex-direction: column-reverse;
-    height: 45em;
+    height: 10em;
     flex-wrap: wrap;
 }
 
 .j {
     display: flex;
     flex-direction: column-reverse;
-    height: 45em;
+    height: 10em;
     flex-wrap: wrap-reverse;
+}
+
+.k {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.l {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.m {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.n {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.o {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
