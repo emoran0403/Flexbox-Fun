@@ -137,3 +137,14 @@ h1 {
 .div3 { order: 0; }
 .div4 { order: -2; }
 .div5 { order: -1; }
+
+.r {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10em;
+    align-items: center;
+}
+
+.div-align-start { align-self: start; }
+.div-align-end { align-self: end; }
